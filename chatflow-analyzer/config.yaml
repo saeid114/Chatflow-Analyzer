@@ -1,0 +1,19 @@
+analysis:
+  sentiment_model: "vader"
+  drop_off_threshold: 2
+  confidence_threshold: 0.65
+  max_reprompt_tolerance: 3
+  fallback_intent_names:
+    - "fallback"
+    - "default"
+    - "unknown"
+  handoff_intent_names:
+    - "agent_handoff"
+    - "transfer"
+    - "escalate"
+
+reporting:
+  format: "markdown"
+  include_charts: true
+  top_issues: 10
+  output_dir: "outputs"

@@ -1,0 +1,289 @@
+[
+  {
+    "conversation_id": "conv_001",
+    "channel": "web_widget",
+    "region": "US",
+    "timestamp_start": "2026-03-15T10:23:11Z",
+    "timestamp_end": "2026-03-15T10:29:45Z",
+    "resolved": true,
+    "turns": [
+      {"role": "bot", "text": "Hi! Welcome to ShopEase. How can I help you today?", "timestamp": "2026-03-15T10:23:11Z", "intent": "greeting", "confidence": 0.99},
+      {"role": "user", "text": "I want to check on my order status", "timestamp": "2026-03-15T10:23:34Z"},
+      {"role": "bot", "text": "Sure! I can help you with that. Could you please share your order number?", "timestamp": "2026-03-15T10:23:36Z", "intent": "order_status", "confidence": 0.94},
+      {"role": "user", "text": "It's ORD-29481", "timestamp": "2026-03-15T10:24:02Z"},
+      {"role": "bot", "text": "Your order ORD-29481 was shipped on March 13 and is expected to arrive by March 17. Here's your tracking link: [track.example.com/29481]", "timestamp": "2026-03-15T10:24:05Z", "intent": "order_status_response", "confidence": 0.97},
+      {"role": "user", "text": "Great, thanks!", "timestamp": "2026-03-15T10:24:22Z"},
+      {"role": "bot", "text": "You're welcome! Is there anything else I can help with?", "timestamp": "2026-03-15T10:24:23Z", "intent": "closing", "confidence": 0.96},
+      {"role": "user", "text": "No that's all", "timestamp": "2026-03-15T10:24:35Z"},
+      {"role": "bot", "text": "Have a great day! 😊", "timestamp": "2026-03-15T10:24:36Z", "intent": "farewell", "confidence": 0.98}
+    ]
+  },
+  {
+    "conversation_id": "conv_002",
+    "channel": "web_widget",
+    "region": "US",
+    "timestamp_start": "2026-03-15T11:05:22Z",
+    "timestamp_end": "2026-03-15T11:14:55Z",
+    "resolved": false,
+    "turns": [
+      {"role": "bot", "text": "Hi! Welcome to ShopEase. How can I help you today?", "timestamp": "2026-03-15T11:05:22Z", "intent": "greeting", "confidence": 0.99},
+      {"role": "user", "text": "I need a refund for a broken item", "timestamp": "2026-03-15T11:05:48Z"},
+      {"role": "bot", "text": "I'm sorry to hear that! I can help you with returns. Could you share your order number?", "timestamp": "2026-03-15T11:05:50Z", "intent": "return_request", "confidence": 0.72},
+      {"role": "user", "text": "ORD-30112. But I don't want a return, I want a REFUND", "timestamp": "2026-03-15T11:06:15Z"},
+      {"role": "bot", "text": "I understand. Let me look into return options for order ORD-30112.", "timestamp": "2026-03-15T11:06:17Z", "intent": "return_request", "confidence": 0.68},
+      {"role": "user", "text": "No you're not understanding me. I want my money back. The item arrived damaged.", "timestamp": "2026-03-15T11:06:55Z"},
+      {"role": "bot", "text": "I'm sorry, I didn't quite get that. Could you please rephrase your question?", "timestamp": "2026-03-15T11:06:57Z", "intent": "fallback", "confidence": 0.31},
+      {"role": "user", "text": "REFUND. DAMAGED ITEM. How hard is this??", "timestamp": "2026-03-15T11:07:28Z"},
+      {"role": "bot", "text": "I apologize for the confusion. Let me connect you with a human agent who can assist you better.", "timestamp": "2026-03-15T11:07:30Z", "intent": "agent_handoff", "confidence": 0.88},
+      {"role": "user", "text": "Finally. Yes please.", "timestamp": "2026-03-15T11:07:45Z"},
+      {"role": "bot", "text": "Transferring you now. Average wait time is 12 minutes. Thank you for your patience.", "timestamp": "2026-03-15T11:07:47Z", "intent": "agent_handoff", "confidence": 0.95},
+      {"role": "user", "text": "12 minutes?! This is ridiculous", "timestamp": "2026-03-15T11:08:10Z"}
+    ]
+  },
+  {
+    "conversation_id": "conv_003",
+    "channel": "mobile_app",
+    "region": "UK",
+    "timestamp_start": "2026-03-15T14:12:03Z",
+    "timestamp_end": "2026-03-15T14:13:20Z",
+    "resolved": false,
+    "turns": [
+      {"role": "bot", "text": "Hello! How can I assist you today?", "timestamp": "2026-03-15T14:12:03Z", "intent": "greeting", "confidence": 0.99},
+      {"role": "user", "text": "can I change my delivery address", "timestamp": "2026-03-15T14:12:28Z"},
+      {"role": "bot", "text": "I'd be happy to help with delivery information. What's your order number?", "timestamp": "2026-03-15T14:12:30Z", "intent": "delivery_info", "confidence": 0.61},
+      {"role": "user", "text": "I haven't ordered yet, I want to change the default address on my account", "timestamp": "2026-03-15T14:12:58Z"},
+      {"role": "bot", "text": "I'm sorry, I'm not sure I understand. Can you tell me more about what you need?", "timestamp": "2026-03-15T14:13:00Z", "intent": "fallback", "confidence": 0.28},
+      {"role": "user", "text": "nevermind", "timestamp": "2026-03-15T14:13:20Z"}
+    ]
+  },
+  {
+    "conversation_id": "conv_004",
+    "channel": "web_widget",
+    "region": "DE",
+    "timestamp_start": "2026-03-15T09:30:00Z",
+    "timestamp_end": "2026-03-15T09:38:42Z",
+    "resolved": true,
+    "turns": [
+      {"role": "bot", "text": "Hi! Welcome to ShopEase. How can I help you today?", "timestamp": "2026-03-15T09:30:00Z", "intent": "greeting", "confidence": 0.99},
+      {"role": "user", "text": "What are your shipping options to Germany?", "timestamp": "2026-03-15T09:30:25Z"},
+      {"role": "bot", "text": "We offer several shipping options to Germany: Standard (5-7 business days, €4.99), Express (2-3 business days, €12.99), and Next Day (€24.99). Which would you prefer?", "timestamp": "2026-03-15T09:30:28Z", "intent": "shipping_info", "confidence": 0.92},
+      {"role": "user", "text": "Is there free shipping?", "timestamp": "2026-03-15T09:30:55Z"},
+      {"role": "bot", "text": "Yes! Orders over €50 qualify for free standard shipping to Germany.", "timestamp": "2026-03-15T09:30:57Z", "intent": "shipping_info", "confidence": 0.89},
+      {"role": "user", "text": "OK and what about customs fees?", "timestamp": "2026-03-15T09:31:22Z"},
+      {"role": "bot", "text": "I'm sorry, I don't have specific information about customs fees. I'd recommend checking with your local customs office. Is there anything else I can help with?", "timestamp": "2026-03-15T09:31:24Z", "intent": "faq_customs", "confidence": 0.55},
+      {"role": "user", "text": "Can you at least tell me if customs are included in the price?", "timestamp": "2026-03-15T09:31:50Z"},
+      {"role": "bot", "text": "For EU countries including Germany, all applicable duties and taxes are included in the displayed price. No additional customs fees should apply.", "timestamp": "2026-03-15T09:31:52Z", "intent": "shipping_info", "confidence": 0.84},
+      {"role": "user", "text": "Perfect, that's what I needed to know. Thanks!", "timestamp": "2026-03-15T09:32:10Z"},
+      {"role": "bot", "text": "Glad I could help! Happy shopping! 🛍️", "timestamp": "2026-03-15T09:32:12Z", "intent": "farewell", "confidence": 0.97}
+    ]
+  },
+  {
+    "conversation_id": "conv_005",
+    "channel": "web_widget",
+    "region": "US",
+    "timestamp_start": "2026-03-16T08:15:00Z",
+    "timestamp_end": "2026-03-16T08:16:30Z",
+    "resolved": false,
+    "turns": [
+      {"role": "bot", "text": "Hi! Welcome to ShopEase. How can I help you today?", "timestamp": "2026-03-16T08:15:00Z", "intent": "greeting", "confidence": 0.99},
+      {"role": "user", "text": "talk to human", "timestamp": "2026-03-16T08:15:12Z"},
+      {"role": "bot", "text": "I'd be happy to connect you with an agent. Before I do, could you briefly describe your issue so I can route you to the right team?", "timestamp": "2026-03-16T08:15:14Z", "intent": "agent_handoff", "confidence": 0.91},
+      {"role": "user", "text": "just transfer me", "timestamp": "2026-03-16T08:15:25Z"},
+      {"role": "bot", "text": "Transferring you now. Please hold.", "timestamp": "2026-03-16T08:15:27Z", "intent": "agent_handoff", "confidence": 0.94}
+    ]
+  },
+  {
+    "conversation_id": "conv_006",
+    "channel": "mobile_app",
+    "region": "US",
+    "timestamp_start": "2026-03-16T10:45:00Z",
+    "timestamp_end": "2026-03-16T10:52:30Z",
+    "resolved": true,
+    "turns": [
+      {"role": "bot", "text": "Hello! How can I assist you today?", "timestamp": "2026-03-16T10:45:00Z", "intent": "greeting", "confidence": 0.99},
+      {"role": "user", "text": "I'm looking for a gift for my wife's birthday, she likes cooking", "timestamp": "2026-03-16T10:45:33Z"},
+      {"role": "bot", "text": "Great choice! Here are some popular kitchen gifts:\n1. 🍳 Premium Cookware Set - $89.99\n2. 📖 MasterChef Cookbook Bundle - $34.99\n3. 🔪 Japanese Knife Set - $129.99\n4. 🧑‍🍳 Online Cooking Class Voucher - $49.99\nWould you like more details on any of these?", "timestamp": "2026-03-16T10:45:36Z", "intent": "product_recommendation", "confidence": 0.87},
+      {"role": "user", "text": "Tell me more about the knife set", "timestamp": "2026-03-16T10:46:05Z"},
+      {"role": "bot", "text": "The Japanese Knife Set includes 5 hand-forged knives made from VG-10 steel with walnut handles. It comes in a beautiful gift box. Rated 4.8/5 by 2,340 customers. Free gift wrapping available! Want me to add it to your cart?", "timestamp": "2026-03-16T10:46:08Z", "intent": "product_detail", "confidence": 0.93},
+      {"role": "user", "text": "Yes please! Can you add gift wrapping?", "timestamp": "2026-03-16T10:46:30Z"},
+      {"role": "bot", "text": "Done! I've added the Japanese Knife Set ($129.99) with free gift wrapping to your cart. Would you like to continue shopping or proceed to checkout?", "timestamp": "2026-03-16T10:46:33Z", "intent": "add_to_cart", "confidence": 0.95},
+      {"role": "user", "text": "That's all, I'll checkout now", "timestamp": "2026-03-16T10:46:50Z"},
+      {"role": "bot", "text": "Great choice! Here's your checkout link: [checkout.shopease.com/cart]. Your wife is going to love it! 🎂", "timestamp": "2026-03-16T10:46:52Z", "intent": "checkout", "confidence": 0.96}
+    ]
+  },
+  {
+    "conversation_id": "conv_007",
+    "channel": "web_widget",
+    "region": "US",
+    "timestamp_start": "2026-03-16T13:20:00Z",
+    "timestamp_end": "2026-03-16T13:28:15Z",
+    "resolved": false,
+    "turns": [
+      {"role": "bot", "text": "Hi! Welcome to ShopEase. How can I help you today?", "timestamp": "2026-03-16T13:20:00Z", "intent": "greeting", "confidence": 0.99},
+      {"role": "user", "text": "I want to return something but it's past 30 days", "timestamp": "2026-03-16T13:20:30Z"},
+      {"role": "bot", "text": "I understand you'd like to make a return. Our standard return policy is within 30 days of purchase. Could you share your order number so I can look into options?", "timestamp": "2026-03-16T13:20:33Z", "intent": "return_request", "confidence": 0.85},
+      {"role": "user", "text": "ORD-28755, bought it 45 days ago", "timestamp": "2026-03-16T13:21:00Z"},
+      {"role": "bot", "text": "I see that order ORD-28755 is outside our 30-day return window. Unfortunately, I'm unable to process a return for this order.", "timestamp": "2026-03-16T13:21:03Z", "intent": "return_policy", "confidence": 0.90},
+      {"role": "user", "text": "But it's defective! It stopped working after 2 weeks", "timestamp": "2026-03-16T13:21:30Z"},
+      {"role": "bot", "text": "I'm sorry to hear that. For defective items, our warranty policy may apply regardless of the return window. Let me check...", "timestamp": "2026-03-16T13:21:33Z", "intent": "warranty_check", "confidence": 0.73},
+      {"role": "bot", "text": "I'm sorry, I'm having trouble accessing warranty information right now. Would you like me to connect you with an agent?", "timestamp": "2026-03-16T13:21:40Z", "intent": "fallback", "confidence": 0.42},
+      {"role": "user", "text": "Your bot is useless. Yes, give me a real person.", "timestamp": "2026-03-16T13:22:05Z"},
+      {"role": "bot", "text": "I apologize for the inconvenience. Connecting you with an agent now. Wait time: approximately 8 minutes.", "timestamp": "2026-03-16T13:22:07Z", "intent": "agent_handoff", "confidence": 0.93}
+    ]
+  },
+  {
+    "conversation_id": "conv_008",
+    "channel": "web_widget",
+    "region": "FR",
+    "timestamp_start": "2026-03-16T15:00:00Z",
+    "timestamp_end": "2026-03-16T15:03:45Z",
+    "resolved": false,
+    "turns": [
+      {"role": "bot", "text": "Hi! Welcome to ShopEase. How can I help you today?", "timestamp": "2026-03-16T15:00:00Z", "intent": "greeting", "confidence": 0.99},
+      {"role": "user", "text": "Bonjour, je voudrais savoir si vous livrez en France", "timestamp": "2026-03-16T15:00:25Z"},
+      {"role": "bot", "text": "I'm sorry, I can only assist in English at the moment. Could you please rephrase in English?", "timestamp": "2026-03-16T15:00:27Z", "intent": "language_unsupported", "confidence": 0.76},
+      {"role": "user", "text": "Do you deliver to France?", "timestamp": "2026-03-16T15:00:50Z"},
+      {"role": "bot", "text": "Yes, we deliver to France! Standard shipping takes 5-8 business days. Would you like to know more about shipping options?", "timestamp": "2026-03-16T15:00:53Z", "intent": "shipping_info", "confidence": 0.91},
+      {"role": "user", "text": "Merci, that's all", "timestamp": "2026-03-16T15:01:10Z"},
+      {"role": "bot", "text": "I'm sorry, I didn't understand that. Could you please rephrase?", "timestamp": "2026-03-16T15:01:12Z", "intent": "fallback", "confidence": 0.25},
+      {"role": "user", "text": "I said thanks goodbye", "timestamp": "2026-03-16T15:01:30Z"},
+      {"role": "bot", "text": "You're welcome! Have a great day!", "timestamp": "2026-03-16T15:01:32Z", "intent": "farewell", "confidence": 0.94}
+    ]
+  },
+  {
+    "conversation_id": "conv_009",
+    "channel": "mobile_app",
+    "region": "US",
+    "timestamp_start": "2026-03-17T09:00:00Z",
+    "timestamp_end": "2026-03-17T09:08:20Z",
+    "resolved": true,
+    "turns": [
+      {"role": "bot", "text": "Hello! How can I assist you today?", "timestamp": "2026-03-17T09:00:00Z", "intent": "greeting", "confidence": 0.99},
+      {"role": "user", "text": "do you have any sales going on?", "timestamp": "2026-03-17T09:00:20Z"},
+      {"role": "bot", "text": "Yes! Here are our current promotions:\n🔥 Spring Sale: 25% off all outdoor furniture\n👟 Buy 2 Get 1 Free on select footwear\n🏠 Free shipping on home decor orders over $75\nWant me to help you find something specific?", "timestamp": "2026-03-17T09:00:23Z", "intent": "promotions", "confidence": 0.91},
+      {"role": "user", "text": "show me the outdoor furniture", "timestamp": "2026-03-17T09:00:45Z"},
+      {"role": "bot", "text": "Here are our top-rated outdoor furniture items on sale:\n1. Teak Patio Dining Set (6-piece) - $599 → $449\n2. Wicker Lounge Chair - $249 → $187\n3. Aluminum Bistro Set - $189 → $142\n4. Hammock with Stand - $159 → $119\nWould you like details on any of these?", "timestamp": "2026-03-17T09:00:48Z", "intent": "product_listing", "confidence": 0.88},
+      {"role": "user", "text": "The hammock looks nice, what colors?", "timestamp": "2026-03-17T09:01:15Z"},
+      {"role": "bot", "text": "The Hammock with Stand comes in: Navy Blue, Forest Green, Sand Beige, and Sunset Orange. All are in stock and include the steel stand. 25% off brings it to $119.25!", "timestamp": "2026-03-17T09:01:18Z", "intent": "product_detail", "confidence": 0.90},
+      {"role": "user", "text": "Add the forest green one to my cart", "timestamp": "2026-03-17T09:01:40Z"},
+      {"role": "bot", "text": "Added! Forest Green Hammock with Stand - $119.25. Your cart total is $119.25. Ready to check out or keep browsing?", "timestamp": "2026-03-17T09:01:43Z", "intent": "add_to_cart", "confidence": 0.94},
+      {"role": "user", "text": "Checkout please", "timestamp": "2026-03-17T09:01:55Z"},
+      {"role": "bot", "text": "Here's your checkout link: [checkout.shopease.com/cart]. Enjoy your new hammock! ☀️", "timestamp": "2026-03-17T09:01:57Z", "intent": "checkout", "confidence": 0.96}
+    ]
+  },
+  {
+    "conversation_id": "conv_010",
+    "channel": "web_widget",
+    "region": "US",
+    "timestamp_start": "2026-03-17T11:30:00Z",
+    "timestamp_end": "2026-03-17T11:32:10Z",
+    "resolved": false,
+    "turns": [
+      {"role": "bot", "text": "Hi! Welcome to ShopEase. How can I help you today?", "timestamp": "2026-03-17T11:30:00Z", "intent": "greeting", "confidence": 0.99},
+      {"role": "user", "text": "I want to cancel my subscription", "timestamp": "2026-03-17T11:30:18Z"},
+      {"role": "bot", "text": "I can help with subscriptions! Could you tell me which subscription you'd like to manage?", "timestamp": "2026-03-17T11:30:20Z", "intent": "subscription_manage", "confidence": 0.78},
+      {"role": "user", "text": "the premium one, I signed up last month", "timestamp": "2026-03-17T11:30:40Z"},
+      {"role": "bot", "text": "I can see your ShopEase Premium subscription. Before canceling, I wanted to let you know that you'll lose access to free shipping, exclusive deals, and early access to sales. Would you still like to proceed?", "timestamp": "2026-03-17T11:30:43Z", "intent": "subscription_cancel", "confidence": 0.82},
+      {"role": "user", "text": "Yes cancel it", "timestamp": "2026-03-17T11:30:58Z"},
+      {"role": "bot", "text": "I'm sorry, I'm unable to process subscription cancellations directly. Please visit your Account Settings > Subscriptions page, or I can connect you with an agent. Which would you prefer?", "timestamp": "2026-03-17T11:31:01Z", "intent": "subscription_cancel", "confidence": 0.65},
+      {"role": "user", "text": "then why did you ask me all those questions? Just waste of time", "timestamp": "2026-03-17T11:31:30Z"}
+    ]
+  },
+  {
+    "conversation_id": "conv_011",
+    "channel": "web_widget",
+    "region": "US",
+    "timestamp_start": "2026-03-17T14:00:00Z",
+    "timestamp_end": "2026-03-17T14:06:30Z",
+    "resolved": true,
+    "turns": [
+      {"role": "bot", "text": "Hi! Welcome to ShopEase. How can I help you today?", "timestamp": "2026-03-17T14:00:00Z", "intent": "greeting", "confidence": 0.99},
+      {"role": "user", "text": "I received the wrong item", "timestamp": "2026-03-17T14:00:22Z"},
+      {"role": "bot", "text": "I'm sorry about that! Let me help you sort this out. Can you share your order number?", "timestamp": "2026-03-17T14:00:24Z", "intent": "wrong_item", "confidence": 0.91},
+      {"role": "user", "text": "ORD-31205", "timestamp": "2026-03-17T14:00:40Z"},
+      {"role": "bot", "text": "I found your order. You ordered a 'Blue Ceramic Vase' but it looks like there may have been a mix-up. Can you describe what you received?", "timestamp": "2026-03-17T14:00:43Z", "intent": "wrong_item_verify", "confidence": 0.88},
+      {"role": "user", "text": "I got a red one instead of blue", "timestamp": "2026-03-17T14:01:05Z"},
+      {"role": "bot", "text": "I apologize for the error. I've initiated a free replacement shipment for the Blue Ceramic Vase. It will arrive in 3-5 business days. You can keep the red one as well — no need to return it. Is there anything else?", "timestamp": "2026-03-17T14:01:08Z", "intent": "wrong_item_resolve", "confidence": 0.94},
+      {"role": "user", "text": "Wow that's great service! No, that's all. Thank you!", "timestamp": "2026-03-17T14:01:30Z"},
+      {"role": "bot", "text": "Happy to help! Your replacement tracking info will be emailed to you. Have a wonderful day! 😊", "timestamp": "2026-03-17T14:01:33Z", "intent": "farewell", "confidence": 0.97}
+    ]
+  },
+  {
+    "conversation_id": "conv_012",
+    "channel": "web_widget",
+    "region": "US",
+    "timestamp_start": "2026-03-17T16:00:00Z",
+    "timestamp_end": "2026-03-17T16:04:00Z",
+    "resolved": false,
+    "turns": [
+      {"role": "bot", "text": "Hi! Welcome to ShopEase. How can I help you today?", "timestamp": "2026-03-17T16:00:00Z", "intent": "greeting", "confidence": 0.99},
+      {"role": "user", "text": "what's the difference between the pro and premium plan", "timestamp": "2026-03-17T16:00:25Z"},
+      {"role": "bot", "text": "I'm sorry, I'm not sure I understand. Could you rephrase your question?", "timestamp": "2026-03-17T16:00:27Z", "intent": "fallback", "confidence": 0.22},
+      {"role": "user", "text": "your membership plans, pro vs premium, what's different", "timestamp": "2026-03-17T16:00:50Z"},
+      {"role": "bot", "text": "I'm sorry, I don't have detailed information about our membership plan comparisons. I'd suggest visiting shopease.com/plans for a full comparison. Can I help with anything else?", "timestamp": "2026-03-17T16:00:53Z", "intent": "faq_plans", "confidence": 0.48},
+      {"role": "user", "text": "that link doesn't work", "timestamp": "2026-03-17T16:01:15Z"},
+      {"role": "bot", "text": "I apologize for that. Let me connect you with an agent who can provide the plan details.", "timestamp": "2026-03-17T16:01:17Z", "intent": "agent_handoff", "confidence": 0.85},
+      {"role": "user", "text": "forget it", "timestamp": "2026-03-17T16:01:30Z"}
+    ]
+  },
+  {
+    "conversation_id": "conv_013",
+    "channel": "mobile_app",
+    "region": "CA",
+    "timestamp_start": "2026-03-18T10:00:00Z",
+    "timestamp_end": "2026-03-18T10:07:45Z",
+    "resolved": true,
+    "turns": [
+      {"role": "bot", "text": "Hello! How can I assist you today?", "timestamp": "2026-03-18T10:00:00Z", "intent": "greeting", "confidence": 0.99},
+      {"role": "user", "text": "Need to update my payment method", "timestamp": "2026-03-18T10:00:20Z"},
+      {"role": "bot", "text": "I can guide you through that! Go to Account > Payment Methods > Add New. You can add a credit card, debit card, or PayPal. Would you like step-by-step instructions?", "timestamp": "2026-03-18T10:00:23Z", "intent": "account_payment", "confidence": 0.93},
+      {"role": "user", "text": "I want to remove my old card first", "timestamp": "2026-03-18T10:00:45Z"},
+      {"role": "bot", "text": "To remove a card: Go to Account > Payment Methods, click the three dots next to the card, and select 'Remove'. Note: you'll need at least one payment method on file if you have an active subscription.", "timestamp": "2026-03-18T10:00:48Z", "intent": "account_payment", "confidence": 0.90},
+      {"role": "user", "text": "Done! Added the new one too. Thanks!", "timestamp": "2026-03-18T10:01:20Z"},
+      {"role": "bot", "text": "You're all set! Is there anything else I can help with?", "timestamp": "2026-03-18T10:01:22Z", "intent": "closing", "confidence": 0.95},
+      {"role": "user", "text": "Nope, all good!", "timestamp": "2026-03-18T10:01:35Z"},
+      {"role": "bot", "text": "Great! Have a wonderful day! 😊", "timestamp": "2026-03-18T10:01:37Z", "intent": "farewell", "confidence": 0.97}
+    ]
+  },
+  {
+    "conversation_id": "conv_014",
+    "channel": "web_widget",
+    "region": "US",
+    "timestamp_start": "2026-03-18T12:30:00Z",
+    "timestamp_end": "2026-03-18T12:36:20Z",
+    "resolved": false,
+    "turns": [
+      {"role": "bot", "text": "Hi! Welcome to ShopEase. How can I help you today?", "timestamp": "2026-03-18T12:30:00Z", "intent": "greeting", "confidence": 0.99},
+      {"role": "user", "text": "I've been charged twice for the same order!", "timestamp": "2026-03-18T12:30:28Z"},
+      {"role": "bot", "text": "I'm sorry to hear that! That shouldn't happen. Could you share your order number so I can investigate?", "timestamp": "2026-03-18T12:30:30Z", "intent": "billing_issue", "confidence": 0.89},
+      {"role": "user", "text": "ORD-30890", "timestamp": "2026-03-18T12:30:48Z"},
+      {"role": "bot", "text": "I can see order ORD-30890. I'm checking the payment records...", "timestamp": "2026-03-18T12:30:51Z", "intent": "billing_check", "confidence": 0.86},
+      {"role": "bot", "text": "I can see a charge of $67.42 on March 14. I'm unable to verify duplicate charges from my end. For billing disputes, I'll need to connect you with our billing team. Would that be okay?", "timestamp": "2026-03-18T12:31:00Z", "intent": "billing_issue", "confidence": 0.71},
+      {"role": "user", "text": "So you can't even check if I was charged twice? What's the point of this chat?", "timestamp": "2026-03-18T12:31:30Z"},
+      {"role": "bot", "text": "I understand your frustration. For security reasons, detailed payment verification requires our billing team. Let me connect you now — they can issue a refund immediately if a duplicate charge is confirmed.", "timestamp": "2026-03-18T12:31:33Z", "intent": "agent_handoff", "confidence": 0.90},
+      {"role": "user", "text": "Fine", "timestamp": "2026-03-18T12:31:45Z"},
+      {"role": "bot", "text": "Connecting you now. Wait time: approximately 5 minutes. Reference number: BIL-2026-4829.", "timestamp": "2026-03-18T12:31:47Z", "intent": "agent_handoff", "confidence": 0.94}
+    ]
+  },
+  {
+    "conversation_id": "conv_015",
+    "channel": "web_widget",
+    "region": "US",
+    "timestamp_start": "2026-03-18T15:45:00Z",
+    "timestamp_end": "2026-03-18T15:51:30Z",
+    "resolved": true,
+    "turns": [
+      {"role": "bot", "text": "Hi! Welcome to ShopEase. How can I help you today?", "timestamp": "2026-03-18T15:45:00Z", "intent": "greeting", "confidence": 0.99},
+      {"role": "user", "text": "I need help choosing between two laptops", "timestamp": "2026-03-18T15:45:25Z"},
+      {"role": "bot", "text": "I'd love to help you compare! Which two laptops are you considering?", "timestamp": "2026-03-18T15:45:27Z", "intent": "product_comparison", "confidence": 0.86},
+      {"role": "user", "text": "The UltraBook Pro 15 and the WorkStation X1", "timestamp": "2026-03-18T15:45:50Z"},
+      {"role": "bot", "text": "Great choices! Here's a quick comparison:\n\n📊 UltraBook Pro 15: Intel i7, 16GB RAM, 512GB SSD, 15.6\" display, $1,299\n📊 WorkStation X1: AMD Ryzen 9, 32GB RAM, 1TB SSD, 15.6\" display, $1,799\n\nThe UltraBook Pro is ideal for everyday productivity, while the WorkStation X1 is better for heavy workloads like video editing or data analysis. What will you primarily use it for?", "timestamp": "2026-03-18T15:45:54Z", "intent": "product_comparison", "confidence": 0.91},
+      {"role": "user", "text": "Mostly coding and some data work", "timestamp": "2026-03-18T15:46:20Z"},
+      {"role": "bot", "text": "For coding and data work, I'd recommend the WorkStation X1. The 32GB RAM and Ryzen 9 handle IDEs, containers, and datasets much better. The extra SSD space is great for large repositories and datasets. Want me to add it to your cart?", "timestamp": "2026-03-18T15:46:23Z", "intent": "product_recommendation", "confidence": 0.89},
+      {"role": "user", "text": "Good advice. Yes, add it please", "timestamp": "2026-03-18T15:46:45Z"},
+      {"role": "bot", "text": "Added! WorkStation X1 - $1,799.00. Ready to checkout or need anything else?", "timestamp": "2026-03-18T15:46:48Z", "intent": "add_to_cart", "confidence": 0.95},
+      {"role": "user", "text": "That's it, thanks for the help!", "timestamp": "2026-03-18T15:47:00Z"},
+      {"role": "bot", "text": "You're welcome! Happy coding! 💻", "timestamp": "2026-03-18T15:47:02Z", "intent": "farewell", "confidence": 0.97}
+    ]
+  }
+]
