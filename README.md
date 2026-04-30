@@ -46,7 +46,7 @@ transcripts (JSON/CSV)
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/chatflow-analyzer.git
+git clone https://github.com/saeid114/chatflow-analyzer.git
 cd chatflow-analyzer
 pip install -r requirements.txt
 ```
